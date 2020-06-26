@@ -1,3 +1,4 @@
+/* Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115) */
 html{
     font-size: 16px;
     scroll-behavior: smooth;
@@ -21,11 +22,11 @@ header{
 nav{
     width: 40%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-right: 60px;
 }
-nav div{
-    width: 30%;
+.social{
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }
@@ -39,6 +40,9 @@ header a{
 header a:hover{
     text-decoration: underline;
     color: #fff;
+}
+.language{
+    margin-right: 7%;
 }
 .side-nav{
     position: fixed;
@@ -112,28 +116,83 @@ header a:hover{
     top: 360px;
 }
 #hero{
-    height: 100vh;
     background: #2e2e2e;
-    display: flex;
-}
-#hero div{
-    height: 100vh;
-}
-#hero div:nth-of-type(1){
-    background: url(../img/section-experience-1.jpg) center/cover no-repeat;
-    width: 55%;
-}
-#hero div:nth-of-type(2){
-    padding: 0 5% 0 5%;
-    width: 35%;
+    width: 86%;
+    padding: 20vh 7% 15vh;
 }
 h1{
     color: #ebccc2;
     font-size: 2.5rem;
     font-weight: 300;
-    margin: 15vh 0 10vh;
 }
 p{
     color: rgb(115, 115, 115);
     line-height: 30px;
+}
+#hero h1{
+    width: 35%;
+    margin-left: 25%;
+    line-height: 60px;
+    margin-bottom: 15vh;
+}
+#hero img{
+    width: 100%;
+}
+#alchemy{
+    width: 70%;
+    padding: 0 15% 20vh;
+    background: #2e2e2e;
+    display: flex;
+}
+#alchemy div{
+    height: 60vh;
+    width: 30%;
+    flex-grow: 1;
+}
+#alchemy div:nth-of-type(1){
+    background: url(../img/BS1_NYC_Home.webp) center/cover no-repeat;
+}
+#alchemy div:nth-of-type(2){
+    padding-left: 7%;
+}
+#alchemy img{
+    width: 100%;
+}
+#lounger{
+    height: 100vh;
+    background: #2e2e2e;
+    display: flex;
+}
+#lounger div{
+    height: 100vh;
+}
+#lounger div:nth-of-type(1){
+    background: url(../img/section-voyager.jpg) center/cover no-repeat;
+    width: 55%;
+}
+#lounger div:nth-of-type(2){
+    padding: 0 10% 0 5%;
+    width: 30%;
+}
+#lounger h1{
+    margin: 20vh 0 10vh;
+}
+#experience{
+    height: 100vh;
+    background: #2e2e2e;
+    display: flex;
+}
+#experience div{
+    height: 100vh;
+}
+#experience div:nth-of-type(1){
+    background: url(../img/section-experience-1.jpg) center/cover no-repeat;
+    width: 55%;
+}
+#experience div:nth-of-type(2){
+    padding: 0 5% 0 5%;
+    width: 35%;
+}
+#experience h1{
+    margin: 15vh 0 10vh;
 }
