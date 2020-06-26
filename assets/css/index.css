@@ -56,16 +56,16 @@ header a:hover{
     position: absolute;
 }
 .big-circle::before{
-    content: ".....";
-    color: #fff;
-    font-size: .9rem;
-    color: #2e2e2e;
-    font-weight: 300;
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
     border: 1px solid #867772;
     border-radius: 50%;
     position: absolute;
-    top: 3.5px;
-    left: 3.5px;
+    top: 4px;
+    left: 4px;
 }
 .big-circle{
     width: 25px;
