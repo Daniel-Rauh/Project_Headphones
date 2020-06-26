@@ -1,0 +1,139 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+header{
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 2vh 0 0 30px;
+    width: 50px;
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+}
+nav div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #867772;
+    transition: color 1s;
+}
+header a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.side-nav{
+    position: fixed;
+    margin: 25vh 0 0 30px;
+}
+.side-nav article{
+    position: relative;
+}
+.small-circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #867772;
+    border-radius: 50%;
+    position: absolute;
+}
+.big-circle::before{
+    content: ".....";
+    color: #fff;
+    font-size: .9rem;
+    color: #2e2e2e;
+    font-weight: 300;
+    border: 1px solid #867772;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5px;
+    left: 3.5px;
+}
+.big-circle{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.side-nav article a{
+    position: absolute;
+    left: 70px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.inactive{
+        color: #867772;
+        transition: color 1s;
+}
+.inactive:hover{
+    color: #fff;
+}
+.active{
+    color: #fff;
+}
+.line{
+    position: absolute;
+    top: 23px;
+    left: 8px;
+    width: 10px;
+    height: 50px;
+    border-left: 1px solid #867772;
+}
+.link2{
+    top: 90px;
+}
+.link3{
+    top: 180px;
+}
+.link4{
+    top: 270px;
+}
+.link5{
+    top: 360px;
+}
+#hero{
+    height: 100vh;
+    background: #2e2e2e;
+    display: flex;
+}
+#hero div{
+    height: 100vh;
+}
+#hero div:nth-of-type(1){
+    background: url(../img/section-experience-1.jpg) center/cover no-repeat;
+    width: 55%;
+}
+#hero div:nth-of-type(2){
+    padding: 0 5% 0 5%;
+    width: 35%;
+}
+h1{
+    color: #ebccc2;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 15vh 0 10vh;
+}
+p{
+    color: rgb(115, 115, 115);
+    line-height: 30px;
+}
