@@ -122,7 +122,7 @@ header a:hover{
 }
 h1{
     color: #ebccc2;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
 }
 p{
@@ -195,4 +195,82 @@ p{
 }
 #experience h1{
     margin: 15vh 0 10vh;
+}
+#inspiration-one{
+    height: 100vh;
+    width: 100%;
+    background: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inspiration-one div{
+    margin: 5vh 0 0 5%;
+    width: 60%;
+}
+video{
+    width: 100%;
+}
+#inspiration-two{
+    background: #2e2e2e;
+    padding-bottom: 15vh;
+}
+.craft{
+    width: 50%;
+    margin: 0 0 15vh 20%;
+}
+h2{
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ebccc2;
+    font-weight: 30;
+}
+#inspiration-two h1{
+    margin: 5px 0 30px;
+}
+h3{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(115, 115, 115);
+}
+.border{
+    border: 1px solid #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-bottom: 0;
+}
+#inspiration-two article{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-div{
+    width: 40%;
+    flex-grow: 1;
+}
+.small-div h2{
+    margin-top: 7vh;
+}
+.small-div:nth-of-type(2){
+    padding-left: 2%;
+}
+.small-div:nth-of-type(3) p{
+    padding-right: 10%;
+}
+.small-div:nth-of-type(3) h1{
+    width: 70%;
+}
+.background1{
+    background: url(../img/ETC_6.webp) center/cover no-repeat;
+    height: 50vh;
+    width: 40%;
+    flex-grow: 1;
+}
+.background2{
+    background: url(../img/ETC_5.webp) center/cover no-repeat;
+    height: 50vh;
+    width: 40%;
+    flex-grow: 1;
+    margin-left: -2%;
 }
