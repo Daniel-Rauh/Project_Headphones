@@ -20,7 +20,7 @@ header{
     width: 50px;
 }
 nav{
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     margin-right: 60px;
@@ -245,20 +245,20 @@ h3{
     display: flex;
     flex-wrap: wrap;
 }
-.small-div{
+.small-div1, .small-div2{
     width: 40%;
     flex-grow: 1;
 }
-.small-div h2{
+.small-div1 h2, .small-div2 h2{
     margin-top: 7vh;
 }
-.small-div:nth-of-type(2){
+.small-div1{
     padding-left: 2%;
 }
-.small-div:nth-of-type(3) p{
+.small-div2 p{
     padding-right: 10%;
 }
-.small-div:nth-of-type(3) h1{
+.small-div2 h1{
     width: 70%;
 }
 .background1{
@@ -273,4 +273,53 @@ h3{
     width: 40%;
     flex-grow: 1;
     margin-left: -2%;
+}
+#shop{
+    background: #2e2e2e;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+    grid-template-rows: 7.5fr 2.5fr;
+    align-items: end;
+}
+#shop div:nth-of-type(1){
+    background: url(../img/section-composition4.jpg) center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+    grid-row: 1/-1;
+}
+#shop div:nth-of-type(2){
+    background: url(../img/h9-argilla-bright-hero-1000x1000.webp) center/contain  no-repeat;
+    height: 90%;
+    width: 100%;
+}
+#shop div:nth-of-type(3){
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+#shop div:nth-of-type(3) h1{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+#shop div:nth-of-type(3) p{
+    font-size: 1.2rem;
+}
+#shop div:nth-of-type(3) a{
+    text-decoration: none;
+    color: #2e2e2e;
+    background-color: #ebccc2;
+    font-size: 0.8rem;
+    border: 2px solid #ebccc2;
+    border-radius: 5px;
+    padding: 12px 25px;
+    transition: color .5s, background-color .8s;
+}
+#shop div:nth-of-type(3) a:hover{
+    background-color: #2e2e2e;
+    color: #ebccc2;
+    border: 2px solid #ebccc2;
+    border-radius: 5px;
 }
