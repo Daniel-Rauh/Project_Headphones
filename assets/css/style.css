@@ -429,6 +429,7 @@ h3{
 }
 #contact textarea{
     width: 40%;
+    max-width: 450px;
     background: #867772;
     color: #ebccc2;
 }
